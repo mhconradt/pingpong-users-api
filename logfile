@@ -1,0 +1,47 @@
+maxwellconradt:la
+maxwellconradt:cd ..
+maxwellconradt:ls
+maxwellconradt:cd proto
+maxwellconradt:sl
+maxwellconradt:ls
+maxwellconradt:cd proto
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:vi Makefile
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:vi Makefile
+maxwellconradt:make gen-proto
+maxwellconradt:cd errors
+maxwellconradt:go build
+maxwellconradt:GO111MODULE=on
+maxwellconradt:go mod download github.com/micro/go-micro/server
+maxwellconradt:go mod download github.com/lib/pq
+maxwellconradt:GO111MODULE=on
+maxwellconradt:go build
+maxwellconradt:vi Makefile
+maxwellconradt:go build
+maxwellconradt:make proto-gen
+maxwellconradt:make gen-proto
+maxwellconradt:make proto-gen
+maxwellconradt:go build
+maxwellconradt:go build
+maxwellconradt:go mod download github.com/micro/go-micro
+maxwellconradt:go build
+maxwellconradt:go build
+maxwellconradt:go get
+maxwellconradt:go get
+maxwellconradt:go build
+maxwellconradt:go build

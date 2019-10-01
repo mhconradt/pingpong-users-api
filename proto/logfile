@@ -1,0 +1,36 @@
+maxwellconradt:trap --help
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out="engine=postgres" users.proto
+maxwellconradt:GO111MODULE=off
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out="engine=postgres" users.proto
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out="engine=postgres" users.proto
+maxwellconradt:go get github.com/infobloxopen/protoc-gen-gorm
+maxwellconradt:cd ..
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out="engine=postgres" users.proto
+maxwellconradt:cat ~/.bash_history
+maxwellconradt:protoc go get -u github.com/golang/protobuf/protoc-gen-go
+maxwellconradt:go get -u github.com/golang/protobuf/protoc-gen-go
+maxwellconradt:protoc-gen-gorm
+maxwellconradt:protoc go get -u github.com/golang/protobuf/protoc-gen-go
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out="engine=postgres" users.proto
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out="engine=postgres" users.proto
+maxwellconradt:go get github.com/golang/protobuf/protoc-gen-go
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out=${GOPATH}src users.proto
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out=. users.proto
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out=. users.proto
+maxwellconradt:protoc -I=/usr/local/include --go_out=plugins:micro:. --gorm_out=. users.proto
+maxwellconradt:protoc which protoc
+maxwellconradt:protoc which protoc
+maxwellconradt:which protoc
+maxwellconradt:echo $PROTO_PATH
+maxwellconradt:go get github.com/micro/protobuf/{proto,protoc-gen-go}
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out=. users.proto
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out=. I=. users.proto
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out=. -I=. users.proto
+maxwellconradt:go get "github.com/infobloxopen/protoc-gen-gorm/options/gorm.proto"
+maxwellconradt:go get "github.com/infobloxopen/protoc-gen-gorm/options/gorm.proto"
+maxwellconradt:go get github.com/infobloxopen/protoc-gen-gorm
+maxwellconradt:cd $GOPATH
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out=. -I=$GOPATH/src users.proto
+maxwellconradt:protoc --go_out=plugins:micro:. --gorm_out=. -I=$GOPATH/src -I=. users.proto
+maxwellconradt:protoc --go_out=plugins=micro:. --gorm_out=. -I=$GOPATH/src -I=. users.proto
+maxwellconradt:cd ..

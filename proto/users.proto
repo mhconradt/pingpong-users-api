@@ -1,0 +1,52 @@
+syntax = "proto3";
+package users;
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/field_mask.proto";
+import "github.com/infobloxopen/protoc-gen-gorm/options/gorm.proto";
+import "github.com/mhconradt/proto/status/status.proto";
+import "github.com/mhconradt/proto/user/user.proto";
+
+service Users {
+    rpc GetUser(GetUserRequest) returns (GetUserResponse);
+    rpc CreateUser(CreateUserRequest) returns (CreateUserResponse);
+    rpc UpdateUser(UpdateUserRequest) returns (UpdateUserResponse);
+    rpc DeactivateUser(DeactivateUserRequest) returns (DeactivateUserResponse);
+}
+
+message GetUserRequest {
+    int32 id = 1;
+    google.protobuf.FieldMask get_mask = 2;
+}
+
+message GetUserResponse {
+    pingpong.user.User user = 1;
+    pingpong.status.Status status = 2;
+}
+
+message CreateUserRequest {
+    pingpong.user.User user = 1;
+}
+
+message CreateUserResponse {
+    pingpong.user.User user = 1;
+    pingpong.status.Status status = 2;
+}
+
+message UpdateUserRequest {
+    pingpong.user.User user = 1;
+    google.protobuf.FieldMask update_mask = 2;
+}
+
+message UpdateUserResponse {
+    pingpong.user.User user = 1;
+    pingpong.status.Status status = 2;
+}
+
+message DeactivateUserRequest {
+    int32 id = 1;
+}
+
+message DeactivateUserResponse {
+    pingpong.user.User user = 1;
+    pingpong.status.Status status = 2;
+}
